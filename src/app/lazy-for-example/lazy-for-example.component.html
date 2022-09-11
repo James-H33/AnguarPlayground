@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <h5>Lazy For</h5>
+
+  <div class="container">
+    <div *lazyFor="let todo of todos" class="item">
+      <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" />
+      <label>{{todo?.title}}</label>
+    </div>
+  </div>
+
+  <h5>Ng For Of</h5>
+  <div class="container">
+    <div *ngFor="let todo of todos" class="item">
+      <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" />
+      <label>{{todo?.title}}</label>
+    </div>
+  </div>
+</div>
