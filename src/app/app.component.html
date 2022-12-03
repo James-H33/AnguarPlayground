@@ -1,3 +1,33 @@
-<h1>Angular Playground</h1>
+<h1 appHighlight defaultColor="green">Angular Playground</h1>
 
 <app-lazy-for-example></app-lazy-for-example>
+
+<div class="app-content">
+  <div appLazyRender data-id="123">
+    <ng-template>
+      <app-lazy></app-lazy>
+    </ng-template>
+  </div>
+</div>
+
+<div class="app-content">
+  <div appLazyRender data-id="12333">
+    <ng-template>
+      <app-lazy></app-lazy>
+    </ng-template>
+  </div>
+</div>
+
+<div class="app-content">
+  <div appLazyRender data-id="124433">
+    <ng-template>
+      <app-lazy></app-lazy>
+    </ng-template>
+  </div>
+</div>
+
+<div appLazyRender data-id="2323">
+  <ng-template>
+    <app-lazy-for-example></app-lazy-for-example>
+  </ng-template>
+</div>
