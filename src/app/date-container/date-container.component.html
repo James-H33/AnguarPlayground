@@ -1,0 +1,11 @@
+<div class="content-wrapper">
+  <div class="date-container">
+    <div #DateWrapper class="date-dates-wrapper">
+      <ng-container *ngFor="let date of dates">
+        <app-date-card [date]="date" [isSelected]="activeDate === date"></app-date-card>
+      </ng-container>
+    </div>
+  </div>
+
+  <app-mini-calendar [dates]="dates"></app-mini-calendar>
+</div>

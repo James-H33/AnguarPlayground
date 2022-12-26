@@ -1,7 +1,8 @@
 import { Directive, DoCheck, ElementRef, Input, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[lazyFor]'
+  selector: '[lazyFor]',
+  standalone: true
 })
 export class LazyForDirective implements OnInit, DoCheck {
   @Input()

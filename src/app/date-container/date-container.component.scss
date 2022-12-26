@@ -1,0 +1,26 @@
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.date-container {
+  width: 100%;
+  height: 200px;
+  overflow-x: scroll;
+  position: relative;
+
+  .date-dates-wrapper {
+    --date-wrapper-width: 500px;
+    width: var(--date-wrapper-width);
+    display: flex;
+    gap: 20px;
+
+    app-date-card {
+      flex-basis: 200px;
+      cursor: pointer;
+    }
+  }
+}
