@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HighlightAndUnderlineDirective } from './directives/highlight-and-underline.directive';
 import { HighlightDirective } from './directives/highlight.directive';
-import { LazyForDirective } from './directives/lazy-for.directive';
 import { LazyRenderDirective } from './directives/lazy-render.directive';
 import { OutsideClickDirective } from './directives/outside-click.directive';
 import { UnderlineDirective } from './directives/underline.directive';

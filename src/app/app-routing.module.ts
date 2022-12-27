@@ -13,6 +13,11 @@ const routes: Routes = [
   {
     path: 'date',
     loadComponent: () => import('./date-container/date-container.component').then(m => m.DateContainerComponent)
+  },
+
+  {
+    path: 'page-scroll',
+    loadComponent: () => import('./snap-and-scroll/snap-and-scroll.component').then(m => m.SnapAndScrollComponent)
   }
 ];
 
